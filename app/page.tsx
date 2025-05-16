@@ -7,7 +7,7 @@ const Home = () => {
         </h1>
         
         <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-          Dedicated M.S. in Computer Science student seeking software development opportunities, 
+          Dedicated Master of Science in Computer Science student seeking software development opportunities, 
           with expertise in backend development, algorithms, and programming. 
           Passionate about building efficient, scalable systems.
         </p>
