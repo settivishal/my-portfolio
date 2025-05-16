@@ -4,7 +4,7 @@ export default function Home() {
       <div className="text-center w-full">
         <h1 className="text-5xl font-bold mb-4">Vishal Karthikeyan Setti</h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          M.S. in Computer Science | Backend Specialist | Cloud Engineer
+          M.S. in Computer Science | Backend Engineer
         </p>
         <div className="flex gap-4 justify-center">
           <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
