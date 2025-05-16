@@ -1,19 +1,20 @@
-const Home = () => {
+export default function Home() {
   return (
-    <main className="flex-col items-center justify-center p-4 sm:p-8">
-      <div className="w-full max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">
-          Welcome to My Portfolio
-        </h1>
-        
-        <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-          Dedicated Master of Science in Computer Science student seeking software development opportunities, 
-          with expertise in backend development, algorithms, and programming. 
-          Passionate about building efficient, scalable systems.
+    <section id="home" className="min-h-[80vh] flex items-center">
+      <div className="text-center w-full">
+        <h1 className="text-5xl font-bold mb-4">Vishal Karthikeyan Setti</h1>
+        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          M.S. in Computer Science | Backend Specialist | Cloud Engineer
         </p>
+        <div className="flex gap-4 justify-center">
+          <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+            Contact Me
+          </a>
+          <a href="/resume.pdf" download className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50">
+            Download Resume
+          </a>
+        </div>
       </div>
-    </main>
+    </section>
   );
 }
-
-export default Home;
