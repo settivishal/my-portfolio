@@ -11,7 +11,7 @@ export default function Home() {
             Contact Me
           </a>
           <a href="/resume.pdf" download className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50">
-            Download My Resume
+            Download Resume here
           </a>
         </div>
       </div>
